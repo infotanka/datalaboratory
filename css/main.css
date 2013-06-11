@@ -1,0 +1,107 @@
+/* © 2012 Artem Sapegin http://sapegin.me */
+
+/* Global reset */
+* {
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+}
+
+html {
+}
+
+body {
+	font-family:'HeliosCondWeb', Helvetica, Arial, sans-serif;
+	font-size:16px;
+	padding-bottom:20px;
+	}
+
+.header a,
+.header a:link,
+.header a:visited {
+	color:#eee;
+	}
+.header a:hover,
+.header a:active,
+.header a:focus {
+	color:#fff;
+	}
+
+.fullscreen .header,
+.fullscreen .header *,
+#download,
+#download * {
+	visibility:visible;
+	z-index:10;
+	}
+
+
+/* Header */
+
+p {
+	margin-top: 8px;
+}
+
+.logo {
+	width:100%;
+	text-align:center;
+	padding-top:20px;
+	margin-bottom: 0px;
+	font-size:32px;
+	font-weight:normal;
+	color:#000;
+	font-family: 'HeliosCondWeb';
+	}
+
+
+.fb-like {
+	width:100%;
+	padding-bottom:10px;
+	color:#000;
+	}
+
+.slogan {
+	font-size:30px; 
+	line-height:50px; 
+	font-family:'HeliosCondWebBold';
+	margin-top: 30px;
+	margin-bottom: 0px;
+}
+
+.quote {
+	font-family: 'HeliosCondWebItalic';
+}
+
+
+
+/* Descriptions */
+
+.fotorama .caption {
+	position:absolute;
+	bottom:10px;
+	left:0px;
+	padding:6px 8px;
+	border-radius:0px;
+	color:#fff;
+	text-shadow:0 0 1px #000;
+	background:#000;
+	background:hsla(0,0%,0%,.7);
+	}
+	.caption__title {
+		display:block;
+		margin-bottom:6px;
+		font-size:15px;
+		}
+		.caption__title a,
+		.caption__title a:link,
+		.caption__title a:visited {
+			color:#ccc;
+			color:hsla(0,0%,100%,.6);
+			}
+		.caption__title a:hover,
+		.caption__title a:active,
+		.caption__title a:focus {
+			color:#fff;
+			}
+
+

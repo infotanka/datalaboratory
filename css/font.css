@@ -14,26 +14,62 @@
 	font-style: normal;
 }
 
+@font-face {
+	font-family: 'HeliosCondWebItalic';
+	src: url('/fonts/HLS58__W.eot');
+	src: local('HeliosCond Web Italic'), local('HeliosCondWebItalic'),
+	     url('/fonts/HLS58__W.eot?#iefix') format('embedded-opentype'),
+	     url('/fonts/HLS58__W.woff') format('woff'),
+	     url('/fonts/HLS58__W.ttf') format('truetype'),
+	     url('/fonts/HLS58__W.svg#HeliosCondWeb-Italic') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
 
-body {font-family: Helvetica, Arial, sans-serif; color:#333333;}
+@font-face {
+	font-family: 'HeliosCondWebBold';
+	src: url('/fonts/HLS77__W.eot');
+	src: local('HeliosCond Web Bold'), local('HeliosCondWebBold'),
+	     url('/fonts/HLS77__W.eot?#iefix') format('embedded-opentype'),
+	     url('/fonts/HLS77__W.woff') format('woff'),
+	     url('/fonts/HLS77__W.ttf') format('truetype'),
+	     url('/fonts/HLS77__W.svg#HeliosCondWeb-Bold') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
 
-.HeliosCondWeb {
-			font-family: 'HeliosCondWeb';
-			font-weight: normal;
-			font-style: normal;
-			color:#000000;
-		}
+@font-face {
+	font-family: 'HeliosCondWebBoldItalic';
+	src: url('/fonts/HLS78__W.eot');
+	src: local('HeliosCond Web Bold Italic'), local('HeliosCondWebBoldItalic'),
+	     url('/fonts/HLS78__W.eot?#iefix') format('embedded-opentype'),
+	     url('/fonts/HLS78__W.woff') format('woff'),
+	     url('/fonts/HLS78__W.ttf') format('truetype'),
+	     url('/fonts/HLS78__W.svg#HeliosCondWeb-BoldItalic') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
 
+@font-face {
+	font-family: 'HeliosCondBlackWeb';
+	src: url('/fonts/HLS87__W.eot');
+	src: local('HeliosCondBlack Web'), local('HeliosCondBlackWeb'),
+	     url('/fonts/HLS87__W.eot?#iefix') format('embedded-opentype'),
+	     url('/fonts/HLS87__W.woff') format('woff'),
+	     url('/fonts/HLS87__W.ttf') format('truetype'),
+	     url('/fonts/HLS87__W.svg#HeliosCondBlackWeb') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
 
-#container {
-			width: 900px;
-			margin-left: auto;
-			margin-right: auto;
-			overflow: none;
-		}
-
-.samplebox {
-			white-space:wrap;
-			margin-top:10px;
-			margin-bottom: 0px;
-		}
+@font-face {
+	font-family: 'HeliosCondBlackWebItalic';
+	src: url('/fonts/HLS88__W.eot');
+	src: local('HeliosCondBlack Web Italic'), local('HeliosCondBlackWebItalic'),
+	     url('/fonts/HLS88__W.eot?#iefix') format('embedded-opentype'),
+	     url('/fonts/HLS88__W.woff') format('woff'),
+	     url('/fonts/HLS88__W.ttf') format('truetype'),
+	     url('/fonts/HLS88__W.svg#HeliosCondBlackWeb-Italic') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
