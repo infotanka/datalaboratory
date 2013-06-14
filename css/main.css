@@ -14,17 +14,19 @@ body {
 	font-family:'HeliosCondWeb', Helvetica, Arial, sans-serif;
 	font-size:16px;
 	padding-bottom:20px;
+
 	}
 
-.header a,
-.header a:link,
-.header a:visited {
-	color:#eee;
+	a,
+	a:link,
+	a:visited {
+	color:#074b80;
 	}
-.header a:hover,
-.header a:active,
-.header a:focus {
-	color:#fff;
+
+	a:hover,
+	a:active,
+	a:focus {
+	color:#801007;
 	}
 
 .fullscreen .header,
@@ -52,23 +54,33 @@ p {
 	color:#000;
 	font-family: 'HeliosCondWeb';
 	}
+	
+h2 {
+	font-size:24px;
+	font-weight:normal;
+	font-family: 'HeliosCondWebBold';
+	margin-top: 20px;
+}
 
 
 .fb-like {
 	width:100%;
 	padding-bottom:10px;
 	color:#000;
+	margin-top: 15px;
 	}
 
 .slogan {
-	font-size:30px; 
-	line-height:50px; 
+	font-size:24px; 
+	line-height:36px; 
 	font-family:'HeliosCondWebBold';
 	margin-top: 30px;
-	margin-bottom: 0px;
+	margin-bottom: 20px;
 }
 
 .quote {
+	border: 1px, solid, #ccc;
+	padding-top: 20px;
 	font-family: 'HeliosCondWebItalic';
 }
 
@@ -104,4 +116,23 @@ p {
 			color:#fff;
 			}
 
+a.quoted_lnk
+{ text-decoration: none; }
 
+a .slaquo,
+a .hlaquo,
+a .slaquo-s,
+a .hlaquo-s,
+a .slaquo-b,
+a .hlaquo-b
+{ margin: 0; }
+
+.quoted_lnk .inner_q_l
+{ text-decoration: underline; }
+
+span.slaquo {margin-right: 0.44em}
+span.hlaquo {margin-left: -0.44em}
+span.slaquo-s {margin-right: 0.6em}
+span.hlaquo-s {margin-left: -0.6em}
+span.slaquo-b {margin-left: 0.85em}
+span.hlaquo-b {margin-left: -0.85em}
